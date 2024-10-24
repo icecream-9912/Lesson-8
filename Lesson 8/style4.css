@@ -1,0 +1,26 @@
+div{
+    width:400px;
+    height: 400px;
+    background-color: darksalmon;
+    animation-name: colorchange;
+    animation-duration: 15s;
+}
+@keyframes colorchange
+{
+    0%
+    {
+        background-color: darkviolet;
+    }
+    25%
+    {
+        background-color: aqua;
+    }
+    50%
+    {
+        background-color: chartreuse;
+    }
+    100%
+    {
+        background-color: cornflowerblue;
+    }
+}
